@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -40,6 +40,13 @@
     --primary-color: #000000 ;
     --primary-color-dark: #020202d7 ; 
   }
+
+  body.white {
+    --bg-color: #000 ; 
+    --text-color: #fff ;
+    --primary-color: #fff ;
+    --primary-color-dark: #020202d7 ; 
+  }
   .container{
     text-align: center;
     width: 300px;
@@ -72,7 +79,7 @@
   }
   
   ul{
-    list-style: none;
+    list-style:none ; 
     margin: 48px 0;
   }
   
@@ -82,7 +89,7 @@
     align-items: center;
     justify-content: center;
     background: var(--primary-color) ;
-    color: white;
+    color: #fff;
     text-transform: uppercase;
     font-size: 14px;
   
@@ -110,3 +117,13 @@
   footer a{
     color: var(--text-color);
   }
+
+  i {
+    font-style: normal;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3px;
+  }
+
+
